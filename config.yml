@@ -2,7 +2,7 @@ token: "lip_j47mmYNwdJzvXamyVTOg"         # Lichess OAuth2 Token.
 
 engine:                                   # Engine settings.
   dir: "./engines"                        # Directory containing the engine.
-  name: "Stockfish-master (2).zip"                      # Binary name of the engine to use.
+  name: "sf-12"                      # Binary name of the engine to use.
   ponder: true                            # Think on opponent's time.
   polyglot:   
     enabled: false                             # Activate polyglot book.
@@ -17,7 +17,7 @@ engine:                                   # Engine settings.
 #       - "Chess960Book"
     selection: "best_move"          # Move selection is one of "weighted_random", "uniform_random" or "best_move".
   pybook: 
-    enabled: false                         # Activate pybook.
+    enabled: true                         # Activate pybook.
     book: "/path/to/pybook"               # Path to pybook.
   online_moves:
     chessdb:
@@ -26,7 +26,7 @@ engine:                                   # Engine settings.
       min_time: 40                        # Time the bot must have at least to use the online move.
       timeout: 5                          # Time the server has to respond.
     lichess_cloud:   
-      enabled: true                         # Activate online moves from Lichess cloud eval.
+      enabled: false                         # Activate online moves from Lichess cloud eval.
       min_depth: 10                       # Minimum evaluation depth.
       min_time: 40                        # Time the bot must have at least to use the online move.
       timeout: 5                          # Time the server has to respond.
