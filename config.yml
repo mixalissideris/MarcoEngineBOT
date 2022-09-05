@@ -17,7 +17,7 @@ engine:                                   # Engine settings.
 #       - "Chess960Book"
     selection: "best_move"          # Move selection is one of "weighted_random", "uniform_random" or "best_move".
   pybook: 
-    enabled: true                         # Activate pybook.
+    enabled: false                         # Activate pybook.
     book: "/path/to/pybook"               # Path to pybook.
   online_moves:
     chessdb:
@@ -26,7 +26,7 @@ engine:                                   # Engine settings.
       min_time: 40                        # Time the bot must have at least to use the online move.
       timeout: 5                          # Time the server has to respond.
     lichess_cloud:   
-      enabled: false                         # Activate online moves from Lichess cloud eval.
+      enabled: true                          # Activate online moves from Lichess cloud eval.
       min_depth: 10                       # Minimum evaluation depth.
       min_time: 40                        # Time the bot must have at least to use the online move.
       timeout: 5                          # Time the server has to respond.
