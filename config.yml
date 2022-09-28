@@ -5,7 +5,7 @@ engine:                                   # Engine settings.
   name: "sf-12"                      # Binary name of the engine to use.
   ponder: true                            # Think on opponent's time.
   polyglot:   
-    enabled: true                             # Activate polyglot book.
+    enabled: false                             # Activate polyglot book.
     books: 
     # white:                             # List of names of books to use as white.
       # - "Goi5_1.bin"
@@ -81,9 +81,9 @@ challenge:                                # Incoming challenges. (Commenting all
     - rated                               # Rated games
 
 matchmaking:
-  initial_time: 60                        # Initial time for matchmaking mode.
-  increment: 1                            # Increment time for matchmaking mode.
-  rated: false                             # Activate rated games in matchmaking mode.
+  initial_time: 15                        # Initial time for matchmaking mode.
+  increment: 0                            # Increment time for matchmaking mode.
+  rated: true                             # Activate rated games in matchmaking mode.
   timeout: 20                             # Time until a challenge is canceled. 
 # min_rating_diff: 0                      # Minimum rating distance to opponent. (Commenting allowed)
 # max_rating_diff: 300                    # Maximum rating distance to opponent. (Commenting allowed)
