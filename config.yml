@@ -17,7 +17,7 @@ engine:                                   # Engine settings.
 #       - "Chess960Book"
     selection: "best_move"          # Move selection is one of "weighted_random", "uniform_random" or "best_move".
   pybook: 
-    enabled: false                         # Activate pybook.
+    enabled: true                         # Activate pybook.
     book: "/path/to/pybook"               # Path to pybook.
   online_moves:
     chessdb:
