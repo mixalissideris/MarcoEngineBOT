@@ -7,15 +7,15 @@ engine:                                   # Engine settings.
   polyglot:   
     enabled: false                             # Activate polyglot book.
     books: 
-    # white:                             # List of names of books to use as white.
-      # - "Goi5_1.bin"
-   # black:                             # List of names of books to use as black.
-      # - "Goi5_1.bin"
+     white:                             # List of names of books to use as white.
+       - "/path/to/DefaultBook.bin"
+    black:                             # List of names of books to use as black.
+       - "/path/to/DefaultBook.bin"
      standard:                           # List of names of books to use if there is no specific book for white, black or chess960.
-       - "Goi5_1.bin"  
+       - "/path/to/DefaultBook.bin"
 #     chess960:                           # List of names of books to use for Chess960.
 #       - "Chess960Book"
-    selection: "best_move"          # Move selection is one of "weighted_random", "uniform_random" or "best_move".
+    selection: "weighted_random"          # Move selection is one of "weighted_random", "uniform_random" or "best_move".
   pybook: 
     enabled: false                         # Activate pybook.
     book: "/path/to/pybook"               # Path to pybook.
