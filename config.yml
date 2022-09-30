@@ -7,10 +7,10 @@ engine:                                   # Engine settings.
   polyglot:   
     enabled: false                             # Activate polyglot book.
     books: 
-     white:                             # List of names of books to use as white.
-       - "/path/to/DefaultBook.bin"
-    black:                             # List of names of books to use as black.
-       - "/path/to/DefaultBook.bin"
+   # white:                             # List of names of books to use as white.
+      # - "/path/to/DefaultBook.bin"
+   # black:                             # List of names of books to use as black.
+      # - "/path/to/DefaultBook.bin"
      standard:                           # List of names of books to use if there is no specific book for white, black or chess960.
        - "/path/to/DefaultBook.bin"
 #     chess960:                           # List of names of books to use for Chess960.
@@ -21,7 +21,7 @@ engine:                                   # Engine settings.
     book: "/path/to/pybook"               # Path to pybook.
   online_moves:
     chessdb:
-      enabled: true                      # Activate online moves from https://chessdb.cn/queryc_en/
+      enabled: false                      # Activate online moves from https://chessdb.cn/queryc_en/
       min_depth: 20                       # Minimum evaluation depth.
       min_time: 40                        # Time the bot must have at least to use the online move.
       timeout: 5                          # Time the server has to respond.
