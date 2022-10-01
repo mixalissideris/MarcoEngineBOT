@@ -5,7 +5,7 @@ engine:                                   # Engine settings.
   name: "sf-12"                      # Binary name of the engine to use.
   ponder: true                            # Think on opponent's time.
   polyglot:   
-    enabled: true                             # Activate polyglot book.
+    enabled: false                             # Activate polyglot book.
     books: 
    # white:                             # List of names of books to use as white.
       # - "/path/to/DefaultBook.bin"
