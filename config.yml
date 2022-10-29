@@ -80,13 +80,13 @@ challenge:                                # Incoming challenges. (Commenting all
     - casual                              # Unrated games.
     - rated                               # Rated games
 
-matchmaking: true
+matchmaking: 
   initial_time: 1                        # Initial time for matchmaking mode.
   increment: 1                            # Increment time for matchmaking mode.
   rated: true                             # Activate rated games in matchmaking mode.
   timeout: 20                             # Time until a challenge is canceled. 
-# min_rating_diff: 0                      # Minimum rating distance to opponent. (Commenting allowed)
-# max_rating_diff: 300                    # Maximum rating distance to opponent. (Commenting allowed)
+ min_rating_diff: 0                      # Minimum rating distance to opponent. (Commenting allowed)
+ max_rating_diff: 300                    # Maximum rating distance to opponent. (Commenting allowed)
 
 books:                                     # Names of the opening books (to be used above in the polyglot section) and paths to the polyglot opening books.
   DefaultBook: "/path/to/DefaultBook.bin"
